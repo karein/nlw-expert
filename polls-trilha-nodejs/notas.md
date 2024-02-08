@@ -12,3 +12,8 @@ Commandos
 - npx prisma studio
 - npm i zod
 - npm i @fastify/cookie
+- docker ps -a
+- docker compose up -d
+- docker logs <id_container>
+- npm i ioredis
+- npm i @fastify/websocket
