@@ -1,0 +1,24 @@
+POST http://localhost:3333/polls HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+
+{
+  "title": "Qual o melhor framework node",
+  "options": ["Express", "Fastify", "NestJS", "HapiJS"]
+}
+
+###
+
+GET  http://localhost:3333/polls/bb6362f4-91ee-43a0-b792-cdc343d2b229 HTTP/1.1
+Host: localhost:3333
+
+
+###
+
+POST   http://localhost:3333/polls/bb6362f4-91ee-43a0-b792-cdc343d2b229/votes HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+
+{
+  "pollOptionId": "7733d0d9-a2ed-4f07-9896-576c28c2152b"
+}
