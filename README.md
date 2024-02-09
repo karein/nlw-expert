@@ -14,10 +14,10 @@ Um sistema de votação em tempo real onde usuários podem criar enquete, votar 
   - npm install
 - Iniciar Docker
   - docker compose up -d
-- Iniciar Server
-  - npm run dev
 - Gerar tabelas
   - npx prisma migrate dev
+- Iniciar Server
+  - npm run dev
 
 # Projeto React
 
