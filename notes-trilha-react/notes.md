@@ -7,3 +7,4 @@ Comandos
 - npm i date-fns
 - npm i lucide-react
 - npm i sonner
+- npm i -D @types/dom-speech-recognition
